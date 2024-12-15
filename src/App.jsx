@@ -6,6 +6,7 @@ import { AppContext } from "./context/AppContext";
 
 function App() {
 
+  //getting data from AppContext
   const {fetchBlog} = useContext(AppContext);
 
   useEffect(()=>{
